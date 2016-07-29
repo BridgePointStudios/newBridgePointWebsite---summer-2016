@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,700,300);
+
+
+
+// Compass Imports
+@import "compass";
+
+
+// Variables
+$blue : #262262;
+$orange: #FEC77C;
+$offWhite: #feffef;
+
+// import partials
+@import "header";
+@import "carousel";
+@import "about";
+@import "services";
+@import "portfolio";
+@import "testimonials";
+
+body {
+
+	color: $blue;
+	background-color: $offWhite;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 300;
+	margin: 15px 0;
+}
+
+h2, h3, h4 {
+	text-align: center;
+}
+
+a {
+	color: $blue;
+}
+
+.page {
+	padding: 40px 0;
+	border-top: 80px solid $blue;
+}
+
+.page-title, .page-sub-title{
+	margin-bottom: 30px;
+}
+
+footer{
+	text-align: center;
+	background-color: #FEC77C;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
+
+}
+
+@media (max-width: 998px){
+	.navbar-nav>li>a {
+		padding: 15px 8px;
+		font-size: 0.8em;
+	}
+	.client-image {
+		width: 100%;
+		margin: 10px 25px 20px;
+	}
+}
+
+@media (max-width: 768px){
+	.portfolio img {
+		max-width: 400px;
+		display:block;
+		margin: auto;
+	}
+	img.logo {
+		max-width: 500px;
+	}
+	header nav.navbar-fixed-top{
+		padding: 0 0 3px 0;
+		border-bottom: 1px solid $blue;
+		transition: all .5s ease-out;
+	}
+
+}
+
+@media (max-width: 550px){
+	.navbar-default .navbar-brand {
+		font-size: 22px;
+	}
+	.portfolio img, img.logo{
+		max-width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media only screen
+and (min-width: 1000px)
+and (max-width: 1200px) {
+	.client-image {
+		margin: 10px 25px 170px;
+	}
+}
+
+@media only screen
+and (min-width: 450px)
+and (max-width: 768px) {
+	#services, #about p, .quote {
+		padding-left: 16%;
+		padding-right: 16%;
+	}
+}

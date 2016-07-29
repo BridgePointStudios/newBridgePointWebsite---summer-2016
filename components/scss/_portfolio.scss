@@ -1,0 +1,71 @@
+.portfolio {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.portfolio h3 {
+	margin-top: 0;
+}
+
+.portfolio img {
+	max-width: 100%;
+}
+
+h2.portfolio-page-title {
+	margin-bottom: 0;
+}
+
+.full-portfolio {
+	display:none;
+	border-top: none;
+}
+
+.full-portfolio img {
+	margin: auto;
+	display: block;
+	max-width: 100%;
+}
+
+.portfolio-title {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.portfolio-url{
+	font-style: italic;
+	margin-top: 0;
+}
+
+.image-title {
+	margin-top: 0;
+}
+
+.callout-title, .callout-heading {
+	margin-bottom: 20px;
+}
+
+
+
+.callout-link {
+	display: inline-block;
+	background-color: $blue;
+	color: $orange;
+	padding: 8px 14px;
+	border-radius: 4px;
+
+}
+
+.callout-link:hover {
+	color: $orange;
+	text-decoration: underline;
+}
+
+.callout-button {
+	width: auto !important;
+	float: none;
+	text-align: center;
+}
+
+.click-notice {
+	text-align: center;
+}

@@ -1,0 +1,26 @@
+#testimonials {
+	}
+
+blockquote {
+	border-left: 5px solid $blue;
+}
+
+.client-image {
+	float: left;
+	margin: 10px 25px 60px;
+}
+
+.client-image img {
+	margin: 0 auto;
+	display: block;
+}
+
+.client, .customer {
+	font-weight: 700;
+}
+
+
+.customer {
+	text-align: center;
+	margin-top: 5px;
+}
